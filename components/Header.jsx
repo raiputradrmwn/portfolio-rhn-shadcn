@@ -1,5 +1,9 @@
 import React from 'react'
+import ThemeToggler from './ThemeToggler'
 
 export default function Header() {
-  return <header>Header</header>
+  return (
+  <header><ThemeToggler/></header>
+  )
 }
+
